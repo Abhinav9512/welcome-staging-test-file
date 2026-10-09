@@ -24,6 +24,6 @@
     <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
     <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
     <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
-    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sahrsd.qualif.people-doc.com/accounts/manager/login/" index="0" isDefault="true"/>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-GET" Location="https://sahrsd.qualif.people-doc.com/accounts/manager/login/" index="0" isDefault="true"/>
   </SPSSODescriptor>
 </EntityDescriptor>
